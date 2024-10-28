@@ -5,8 +5,10 @@ const Header = () => {
         <div>
             <h2>Navbar</h2>
             <nav>
-                <Link to="/"></Link>
+
                 <Link to="/">Home</Link>
+                <Link to="/users">Users</Link>
+                <Link to="/posts">Posts</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact US</Link>
             </nav>
